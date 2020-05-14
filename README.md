@@ -4,7 +4,7 @@ This repository contains the Dockerfile used to build the dynu-ddns-updater cont
 
 [https://hub.docker.com/r/nortismo/dynu-ddns-updater](https://hub.docker.com/r/nortismo/dynu-ddns-updater)
 
-This container can be used to update your dynamic dns entry on [dynu.com](https://www.dynu.com/) on a regular basis, typically running on a server. Currently the job gets executed once every 15 minute.
+This container can be used to update your dynamic dns entry on [dynu.com](https://www.dynu.com/) on a regular basis, typically running on a server. Currently the job gets executed once every 10 minute.
 
 The container image is derivated from `alpine:3.9` to keep the memory footprint small and it works on different architectures like `x86` or `Arm`. You need to make sure that you provide the required environment variables which are described below.
 
